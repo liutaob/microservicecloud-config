@@ -2,11 +2,15 @@ spring:
   profiles:
     active: dev
 ---
+server:
+  port: 3344
 spring:
   profiles: dev
   application:
     name: microservicecloud-config-atguigu-dev
 ---
+server:
+  port: 3388
 spring:
   profiles: test
   application:
