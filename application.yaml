@@ -1,6 +1,8 @@
 spring:
   profiles:
     active: dev
+abc:
+  def: hellow
 ---
 server:
   port: 3344
